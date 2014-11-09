@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueEditorMasterObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <dialogues>
+    <DialogueEditorDialogueObject>
+      <id>0</id>
+      <name>StartDialog</name>
+      <startPage>0</startPage>
+      <scrollPosition>
+        <x>1051.61926</x>
+        <y>0</y>
+      </scrollPosition>
+      <phases>
+        <DialogueEditorPhaseObject>
+          <id>0</id>
+          <type>TextPhase</type>
+          <position>
+            <x>206</x>
+            <y>59</y>
+          </position>
+          <outs>
+            <int>2</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Приветствуем в игре School Simulation!</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <width>0</width>
+            <height>0</height>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>1</id>
+          <type>TextPhase</type>
+          <position>
+            <x>1195</x>
+            <y>90</y>
+          </position>
+          <outs>
+            <int>5</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Вперед!</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <width>0</width>
+            <height>0</height>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>2</id>
+          <type>BranchedTextPhase</type>
+          <position>
+            <x>563.355469</x>
+            <y>13</y>
+          </position>
+          <outs>
+            <int>3</int>
+            <int>4</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Вы хотите продолжить?</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <width>0</width>
+            <height>0</height>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices>
+            <string>Да</string>
+            <string>Нет</string>
+          </choices>
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>3</id>
+          <type>TextPhase</type>
+          <position>
+            <x>879</x>
+            <y>10</y>
+          </position>
+          <outs>
+            <int>1</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Хм, вы правда выбрали продолжить, ну тогда ок</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <width>0</width>
+            <height>0</height>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>4</id>
+          <type>TextPhase</type>
+          <position>
+            <x>883</x>
+            <y>158</y>
+          </position>
+          <outs>
+            <int>1</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Du hast mich!</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <width>0</width>
+            <height>0</height>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>5</id>
+          <type>EndPhase</type>
+          <position>
+            <x>1514</x>
+            <y>85</y>
+          </position>
+          <outs />
+          <advanced>false</advanced>
+          <text />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <width>0</width>
+            <height>0</height>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+      </phases>
+      <floats>
+        <variables />
+        <selection>0</selection>
+      </floats>
+      <strings>
+        <variables />
+        <selection>0</selection>
+      </strings>
+      <booleans>
+        <variables />
+        <selection>0</selection>
+      </booleans>
+    </DialogueEditorDialogueObject>
+  </dialogues>
+  <globals>
+    <booleans>
+      <variables>
+        <DialogueEditorVariableObject>
+          <name>DialoguerTest_HadFun</name>
+          <variable>true</variable>
+          <id>0</id>
+        </DialogueEditorVariableObject>
+        <DialogueEditorVariableObject>
+          <name>Other</name>
+          <variable>false</variable>
+          <id>1</id>
+        </DialogueEditorVariableObject>
+      </variables>
+      <selection>0</selection>
+    </booleans>
+    <floats>
+      <variables>
+        <DialogueEditorVariableObject>
+          <name>DialoguerTest_Count</name>
+          <variable>0</variable>
+          <id>0</id>
+        </DialogueEditorVariableObject>
+      </variables>
+      <selection>0</selection>
+    </floats>
+    <strings>
+      <variables />
+      <selection>0</selection>
+    </strings>
+  </globals>
+  <themes>
+    <themes>
+      <DialogueEditorThemeObject>
+        <id>0</id>
+        <name>Default</name>
+        <linkage>theme_default</linkage>
+      </DialogueEditorThemeObject>
+      <DialogueEditorThemeObject>
+        <id>1</id>
+        <name>Good</name>
+        <linkage>theme_good</linkage>
+      </DialogueEditorThemeObject>
+      <DialogueEditorThemeObject>
+        <id>2</id>
+        <name>Bad</name>
+        <linkage>theme_bad</linkage>
+      </DialogueEditorThemeObject>
+    </themes>
+    <selection>0</selection>
+  </themes>
+  <selectorScrollPosition>
+    <x>0</x>
+    <y>0</y>
+  </selectorScrollPosition>
+  <currentDialogueId>0</currentDialogueId>
+</DialogueEditorMasterObject>

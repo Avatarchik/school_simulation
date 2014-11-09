@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D7CF9E13-55A0-F2E5-61C1-E55C939F3A42}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Buildr\Runtime\BuildrRuntimeConstraints.cs" />
+     <Compile Include="Assets\Buildr\Runtime\BuildrRuntimeGenerator.cs" />
+     <Compile Include="Assets\Buildr\Runtime\CreateBuilding.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBay.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBuilding.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBuildingBayModels.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBuildingBox.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBuildingCollider.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBuildingDetails.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBuildingGenerator.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBuildingLowDetail2.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrBuildingOneDrawCall.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrData.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrDetail.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrEditMode.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrFacadeDesign.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrGenerateConstraints.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrGenerateMode.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrInteriors.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrPlan.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrRoof.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrRoofDesign.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrStairs.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrTexture.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrVolume.cs" />
+     <Compile Include="Assets\Buildr\Scripts\BuildrVolumeStyles.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Enums\BuildrColours.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Enums\BuildrFiletypes.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Enums\BuildrMeasurements.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Enums\BuildrVersion.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Enums\ShaderProperties.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\BuildrPolyClockwise.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\BuildrProjectUVs.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\BuildrTexturePacker.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\BuildrTexturePacker2.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\BuildrUpgrader.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\BuildrUtils.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\DynamicMeshGeneric.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\DynamicMeshGenericMultiMaterial.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\DynamicMeshGenericMultiMaterialMesh.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\EarClipper.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\ExportMaterial.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\RandomGen.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\RectanglePack.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\StraightSkeleton.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\TextureScale.cs" />
+     <Compile Include="Assets\Buildr\Scripts\Utils\Vector2z.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorDialogueObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorDragPhaseObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorGlobalVariablesContainer.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorMasterObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorPhaseObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorSelectionObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\ThemeObjects\DialogueEditorThemeObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\ThemeObjects\DialogueEditorThemesContainer.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\VariableObjects\DialogueEditorVariableObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\VariableObjects\DialogueEditorVariablesContainer.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\DialogueEditorStatics.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\DialogueEditorWaitTypes.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\VariableEditorGetEquation.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\VariableEditorScopes.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\VariableEditorSetEquation.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\VariableEditorTypes.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Core\Dialoguer.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Core\DialoguerDialogueManager.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Core\DialoguerEventManager.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Managers\DialoguerDataManager.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Monobehaviours\WaitPhaseComponent.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerData.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerDialogue.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerGlobalVariables.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerTextData.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerTheme.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerVariables.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\AbstractDialoguePhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\BranchedTextPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\ConditionalPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\EmptyPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\EndPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\SendMessagePhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\SetVariablePhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\TextPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\WaitPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Statics\DialoguerTextPhaseType.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Statics\PhaseState.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Statics\PhaseVarSubStrings.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Utilities\DialoguerSerializableDictionary.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Utilities\DialoguerUtils.cs" />
+     <Compile Include="Assets\DialoguerExamples\NextGen RPG\Scripts\NextGenRpgDialogueGui.cs" />
+     <Compile Include="Assets\DialoguerExamples\Old School RPG\Scripts\OldSchoolRPGDialogueGUI.cs" />
+     <Compile Include="Assets\DialoguerExamples\Scripts\DialoguerTestSceneMain.cs" />
+     <Compile Include="Assets\DialoguerExamples\Scripts\DialogueriTween.cs" />
+     <Compile Include="Assets\DialoguerExamples\Scripts\UnityDefaultGuiManager.cs" />
+     <Compile Include="Assets\DialoguerGui.cs" />
+     <Compile Include="Assets\DialoguerOutput\Enums\DialoguerDialogues.cs" />
+     <Compile Include="Assets\Init.cs" />
+     <Compile Include="Assets\WaterPlus\Scripts\FlowmapAnimator.cs" />
+     <Compile Include="Assets\WaterPlus\Scripts\WaterPlusScript.cs" />
+     <Compile Include="Assets\animation_script.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\Sample\DiaQSample.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\Sample\DiaQSampleRewardGiver.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_ActiveGraph_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_ActiveNode_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_BeginGraph_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_CondCnt_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_DlgResCnt_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_DlgResTxt_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_DlgText_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_GetQuestCond_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_GetQuestRwrd_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_GetQuest_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_GiveQuestRewards_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_HasWaitingNode_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_PerfCond_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_RwrdCnt_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_SendDataToNode_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_SetQuestStatus_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_StopGraph_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_UpdCond_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\DiaQ_UpdateGraph_plyBlock.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\_FieldDefs\DiaQuestCondFieldData.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\_FieldDefs\DiaQuestFieldData.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Blox\_FieldDefs\plyGraphFieldData.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\Scripts\Nodes\DiaQNode_BloxEvent.cs" />
+     <Compile Include="Assets\plyoung\DiaQ\plyGame\plyRPG\Scripts\plyRPGDiaQRewardHandler.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_NoSpec.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\plyoung\DiaQ\Editor\DiaQEditor.xml" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop_Shadows.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Buildr\Shaders\WindowCube.shader" />
+     <None Include="Assets\Buildr\XML\none.xml" />
+     <None Include="Assets\Buildr\XML\georgianTextures.xml" />
+     <None Include="Assets\Buildr\XML\hongKongTextures.xml" />
+     <None Include="Assets\Buildr\XML\hongKongStyle.xml" />
+     <None Include="Assets\plyoung\plyGame\Documentation\version.txt" />
+     <None Include="Assets\Buildr\XML\alltextures.xml" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\plyoung\DiaQ\Documentation\version.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Buildr\versionlog.txt" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Lite.shader" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Shadows.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\plyoung\plyBlox\Documentation\readme.txt" />
+     <None Include="Assets\plyoung\DiaQ\DiaQ.xml" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Opaque.shader" />
+     <None Include="Assets\WaterPlus\Terrains\Terrain_3Textures.shader" />
+     <None Include="Assets\Buildr\XML\georgianStyle.xml" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlusInclude.cginc" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Buildr\readme.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\plyoung\plyRPG\Documentation\readme.txt" />
+     <None Include="Assets\Buildr\XML\parisstyle.xml" />
+     <None Include="Assets\plyoung\DiaQ\Documentation\readme.txt" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_HQ.shader" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop_Lite.shader" />
+     <None Include="Assets\Buildr\Textures\license.txt" />
+     <None Include="Assets\Buildr\XML\paristextures.xml" />
+     <None Include="Assets\DialoguerOutput\Resources\dialoguer_data.xml" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop.shader" />
+     <None Include="Assets\plyoung\plyRPG\Documentation\version.txt" />
+     <None Include="Assets\plyoung\plyCommon\version.txt" />
+     <None Include="Assets\DialoguerExamples\README.txt" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\plyoung\plyBlox\Documentation\version.txt" />
+     <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile.shader" />
+     <None Include="Assets\Buildr\Textures\textures.xml" />
+     <None Include="Assets\plyoung\plyCommon\readme.txt" />
+     <None Include="Assets\plyoung\plyGame\Documentation\readme.txt" />
+ <Reference Include="DiaQ">
+ <HintPath>Assets\plyoung\DiaQ\DiaQ.dll</HintPath>
+ </Reference>
+ <Reference Include="plyBlox">
+ <HintPath>Assets\plyoung\plyBlox\plyBlox.dll</HintPath>
+ </Reference>
+ <Reference Include="plyCommon">
+ <HintPath>Assets\plyoung\plyCommon\plyCommon.dll</HintPath>
+ </Reference>
+ <Reference Include="plyGame">
+ <HintPath>Assets\plyoung\plyGame\plyGame.dll</HintPath>
+ </Reference>
+ <Reference Include="plyRPG">
+ <HintPath>Assets\plyoung\plyRPG\plyRPG.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{06AA2124-01BD-DA2C-0E5F-4E2A425F9C1A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{72EC935D-8057-A86F-0D45-479B26842C74}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

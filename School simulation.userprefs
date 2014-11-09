@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DialoguerGui.cs">
+    <Files>
+      <File FileName="Assets\Init.cs" Line="19" Column="52" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\MoveKeyboardPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\changeAnimation.cs" Line="5" Column="11" />
+      <File FileName="Assets\DialoguerGui.cs" Line="28" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\School simulation\Assets\Init.cs" line="19" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
