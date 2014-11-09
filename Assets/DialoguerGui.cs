@@ -16,18 +16,16 @@ public class DialoguerGui : MonoBehaviour {
 	{
 		if (!_showing) 
 			return;
-				
-
-						GUI.Box (new Rect (10, 10, 200, 150), "текст");
+				GUI.Box (new Rect (10, 10, 350, 150), _text);
 
 			if (_choices==null){
-						if (GUI.Button (new Rect(10, 220, 200, 30), "продолжить")) {
+						if (GUI.Button (new Rect(50, 220, 200, 30), "продолжить")) {
 								Dialoguer.ContinueDialogue ();		
 						}
 				} else {
 			for (int i=0;i<_choices.Length;i++)
 			{
-			if (GUI.Button(new Rect(10,220+(40+i),200,30),_choices[i])){
+			if (GUI.Button(new Rect(50,220+(40*i),200,30),_choices[i])){
 				Dialoguer.ContinueDialogue(i);
 			}
 			}
