@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
 
 public class DialoguerGui : MonoBehaviour {
 	private bool _showing;
@@ -8,6 +9,7 @@ public class DialoguerGui : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		//Process.Start("D:/School simulation/Assets/game.exe");
 		Dialoguer.events.onStarted += onStarted;
 		Dialoguer.events.onEnded += onEnded;
 		Dialoguer.events.onTextPhase += onTextPhase;
